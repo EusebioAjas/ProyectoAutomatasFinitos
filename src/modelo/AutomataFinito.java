@@ -61,6 +61,7 @@ public class AutomataFinito {
     }
 
     public void eliminarConexiones(int estado) {
+        /**/
 
         for (int i = 0; i < getListaConexiones().size(); i++) {
             PApplet.println("Estado: " + getListaEstados().get(estado) + "  |   Conexion destino: " + getListaConexiones().get(i).getDestino());
