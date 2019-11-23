@@ -58,6 +58,7 @@ public class AutomataFinito {
     }
 
     public void eliminarConexiones(int estado) {
+        /**/
 
         for (int i = 0; i < getListaConexiones().size(); i++) {
             if (getListaEstados().get(estado).equals(getListaConexiones().get(i).getDestino())) {
